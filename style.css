@@ -1,0 +1,176 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+	background-image: url(img/putih.jpg);
+
+}
+.container{
+	width: 100%;
+	height: auto;
+	background-color: #fff;
+
+}
+.main{
+	max-width: 1200px;
+	height: auto;
+	margin: 0 auto;
+}
+
+.main p{
+	text-align: justify;
+	word-spacing: 5px;
+	line-height: 25px;
+	padding-right: 70px;
+	padding-left: 70px;
+}
+
+nav{
+	width: 100%;
+	height: 100px;
+	background-color: #fff;
+}
+
+nav ul{
+	float: right;
+
+}
+nav ul li{
+	display: inline-block;
+	list-style-type: none;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: #272727;
+	line-height: 100px;
+	padding: 35px 10px;
+	font-size: 13px;
+	letter-spacing: 0.5px;
+}
+
+nav ul li a:hover{
+	background-color:#272727 ;
+	color: white;
+	transition: 0.5s;
+	border-radius: 40px;
+
+}
+
+.logo{
+	float: left;
+	line-height: 100px;
+}
+
+.slider
+{
+	width: 100%;
+	height: 630px;
+	background-image: url(img/img20.jpg);
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	align-items: center;
+
+
+}
+
+.slider .title{
+	width: 40%;
+	height: auto;
+	position: absolute;
+	left: 18.5%;
+
+}
+
+.slider .title h1{
+	font-size: 57px;
+	color: #fff;
+	line-height: 65px;
+}
+
+.slider .title h1 span{
+	color:  #01d7a7; !important;
+}
+
+.slider .title p{
+	font-size: 18px;
+	color: #fff;
+	line-height: 1.5;
+	margin-top: 15px;
+	padding-right: 20px;
+
+}
+
+.slider .title .btn{
+	color: #fff;
+	background-color: skyblue;
+	border-radius: 3px;
+	padding: 20px 40 px;
+	text-align: center;
+	letter-spacing: 0.5px;
+	text-decoration: none;
+	margin-right: 10px;
+	line-height: 26px;
+	display: inline-table;
+	font-size: 16px;
+	margin-top: 15 px;
+	transition: 0.3s all;
+
+}
+
+.slider .title .btn: hover{
+	background-color: #27272727;
+}
+
+.flex-container{
+	margin-top: 80px;
+	clear: both;
+	flex-direction: float left;
+}
+
+.main .flex-container .flex-itemS{
+	width: 20%;
+	display: inline-block;
+	text-align: center;
+	margin-left: 46Spx;
+}
+
+.main .flex-container .flex-itemS h5{
+	font-size: 18px;
+	letter-spacing: 0.5px;
+	margin: 20px 0px;
+}
+
+.Education {
+  float: center;
+  width: 50%;
+  padding: 40px;
+  margin:30px;
+  margin-right:50px;
+  margin-bottom: 40px;
+  background-color:white;
+  border-style:  solid;
+  border-width: 10px;
+  border-color: bisque;
+  border-radius: 10px;
+}
+
+.Education td{
+  padding-right: 80px;
+}
+
+.Education h2{
+  padding-bottom: 15px;
+}
+
+.contact-info{
+    width: 100%;
+    display: inline-block;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    line-height: 25px;
+}
+
